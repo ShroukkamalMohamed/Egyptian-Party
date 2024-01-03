@@ -1,0 +1,15 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'EB Garamond',serif;overflow:hidden;background-color:#25262b}
+a{text-decoration:none;color:#fff}
+header{background-color:#25262b;padding-block:10px;color:#fff}
+header .logo{display:flex;gap:10px}
+header .logo img{height:40px}
+header .links ul{list-style:none}
+header .links li{display:inline-block;padding-right:20px;font-size:17px;font-weight:400}
+.activelink{color:#08a7da;border:2px solid #08a7da;border-radius:30px;padding:10px}
+.main{background-image:url(../images/5Rgv.gif);background-size:cover;background-position:center;height:500px}
+.main #saerch{margin-top:50px;background-color:#0a0b0b;line-height:40px;border:none;border-radius:30px;color:#fff}
+.card{width:33.3333%;border:none;background-color:transparent}
+.card .cardheader{color:#fff;border-bottom:1px solid #313334;background-color:#313334;padding:10px;border-radius:10px 10px 0 0}
+.cardbody{color:#fff;background-color:#393a3b;border-radius:0 0 10px 10px;padding:20px;font-size:30px}
+.cardbody .temp{font-size:70px}
