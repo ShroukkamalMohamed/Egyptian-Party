@@ -45,18 +45,22 @@
         </div>
       </div>
     </header>
+
     <div class="main">
       <div class="container">
-        <div class="d-flex justify-content-center align-items-center">
-          <input
-            type="text"
-            name="saerch"
-            id="saerch"
-            class="form-control"
-            placeholder="Find Your Location"
-          />
-          <!-- <input type="submit" name="" id="" /> -->
-        </div>
+        <form action="" class="">
+          <div class="searchform d-flex justify-content-end">
+            <input
+              type="text"
+              name="saerch"
+              id="saerch"
+              class="form-control"
+              placeholder="Find Your Location"
+            />
+            <input type="button"  value="Search" id="btnfind" />
+          </div>
+        </form>
+        <!-- ?=====CurrentWeather====== -->
         <div class="weather d-flex">
           <div class="card mt-5">
             <div
@@ -64,17 +68,17 @@
             >
               <div class="today shadow-lg">
                 <div class="dateTime d-flex justify-content-between">
-                  <span>Thursday</span>
-                  <span>4 January</span>
+                  <span id="day"></span>
                 </div>
                 <div class="details">
-                  <div class="city">Cairo</div>
+                  <div class="city" id="city"></div>
                 </div>
                 <div class="tempDetails d-flex justify-content-between">
-                  <div class="temp">30 C</div>
+                  <div class="temp" id="temp"></div>
                   <div class="icon">
                     <img
-                      src="https://cdn.weatherapi.com/weather/64x64/day/116.png"
+                      id="icon"
+                      src=""
                       alt=""
                       width="90"
                     />
@@ -97,29 +101,32 @@
               >
             </div>
           </div>
-          <div class="next mt-5 m-2">
-            <table class="table table-hover">
-              <tbody>
-                <tr>
-                  <td>day</td>
-                  <td>temp</td>
-                  <td>icon</td>
-                  <td>status</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+          <!-- ~=============nextdays========= -->
+
+          <div
+            class="nextforecast mt-5 m-2 d-flex justify-content-between"
+            id="nextforecast"
+          ></div>
         </div>
       </div>
     </div>
-    <div class="footer m-5 w-50">
+    <div class="footer m-5">
       <div class="container d-flex">
-        <div class="social ">
-          <input
-            type="text"
-            placeholder="Enter your email to subscribe..."
-            class="form-control"
-          />
+        <div class="social">
+          <form action="" class="d-flex justify-content-end">
+            <input
+              id="txtsubscribe"
+              type="text"
+              placeholder="Enter your email to subscribe..."
+              class="form-control"
+            />
+            <input
+              type="submit"
+              id="btnsubscribe"
+              class="btn btn-light"
+              value="Subscribe"
+            />
+          </form>
         </div>
         <div class="social-links">
           <a href="#"><i class="fa fa-facebook"></i></a>

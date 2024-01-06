@@ -9,22 +9,27 @@ header .links ul{list-style:none}
 header .links li{display:inline-block;padding-right:20px;font-size:17px;font-weight:400}
 .activelink{color:#08a7da;border:2px solid #08a7da;border-radius:30px;padding:10px}
 .main{background-image:url(../images/draw1.webp);background-size:cover;background-position:center;height:500px}
-.main #saerch{margin-top:50px;background-color:#fff;line-height:40px;border:none;border-radius:30px;color:#fff}
+.main #saerch{position:relative;background-color:#fff;line-height:40px;border:none;border-radius:30px;color:#084e65;margin-top:20px}
+#btnfind{position:absolute;margin-top:20px;line-height:50px;border-radius:20px;border-color:rgba(13,145,198,.5);background-color:rgba(13,145,198,.5);color:#fff;width:100px}
 .card{width:33.3333%;border:none;background-color:transparent}
 .card .cardheader{color:#fff;border-bottom:1px solid #313334;background-color:#313334;padding:10px;border-radius:10px 10px 0 0}
 .card{width:33.3333%;background-color:rgba(59,152,189,.5);height:250px;border-radius:30px}
 .cardbody{color:#fff;background-color:#393a3b;border-radius:0 0 10px 10px;padding:20px;font-size:30px}
 .cardbody .temp{font-size:70px}
+.nextcard{width:200px;margin-left:20px;color:#fff;font-size:20px}
+.nextcard span{margin-bottom:10px}
+.nextcard #minitemp{font-size:15px}
+.nextcard #status{color:#084e65}
+.nextcard .header{height:20%;background-color:#fff;border-radius:10px 10px 0 0;color:#08a7da}
 .today{padding:20px;position:absolute;width:100%;background-color:#fff;height:70%;top:0;border-radius:30px 30px 0 0;color:#08a7da;font-size:20px}
 .temp{font-size:70px}
 .footerdetails{position:absolute;bottom:0;padding:20px;font-size:20px}
 .footerdetails span{margin-left:25px;color:#fff}
 .footerdetails i{color:#084e65;font-size:25px}
-.table{width:700px;color: #000;}
-.table tr{
-  border-color: #000 ;
-}
-.footer input{background-color:rgba(13,145,198,.5);line-height:40px;border:none;border-radius:30px;color:#fff; width:700px}
-.social-links i{
-  color: rgba(13,145,198,.5);
-}
+.footer #txtsubscribe{position:relative;background-color:rgba(13,145,198,.5);line-height:40px;border:none;border-radius:30px;color:#fff;width:700px}
+.footer #txtsubscribe::placeholder{color:#fff}
+.social-links{margin-left:40px}
+.social-links i{color:#fff;font-size:30px}
+.social-links a{display:inline-block;background-color:rgba(13,145,198,.5);width:50px;height:50px;border-radius:50%;text-align:center;padding:10px}
+.footer #btnsubscribe{position:absolute;line-height:40px;border-radius:30px;border-color:rgba(13,145,198,.5);color:#0d5572}
+.footer #btnsubscribe:hover{background-color:rgba(13,145,198,.5);color:#fff}
