@@ -17,127 +17,175 @@
     <link rel="stylesheet" href="Css/all.css" />
     <link rel="stylesheet" href="Css/font-awesome.min.css" />
     <!-- *========================favicon=======================================* -->
-    <link rel="shortcut icon" href="Images/logo@2x.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="" type="image/x-icon" />
     <!-- !=================BootStarp(css)======================================= -->
     <link rel="stylesheet" href="Css/bootstrap.min.css" />
     <link rel="stylesheet" href="Css/fonts.css" />
     <!-- &======================style===========================================& -->
     <link rel="stylesheet" href="Css/mediaqueries.css" />
-    <link rel="stylesheet" href="Css/Animation.css" />
     <link rel="stylesheet" href="Css/style.css" />
     <!-- ======================================================================= -->
   </head>
   <body>
-    <header>
-      <div class="container d-flex justify-content-between align-items-center">
-        <div class="logo">
-          <img src="images/logo@2x.png" alt="" />
-          <h1>Weather</h1>
+    <!-- ~===================>>>>>>>>>Main================================== -->
+    <div class="main d-flex align-items-center justify-content-between">
+      <div class="sideMenu d-flex align-items-center justify-content-between">
+        <div class="menu">
+          <div class="closeIcon mb-4">
+            <i class="fa-solid fa-close"></i>
+          </div>
+          <div class="links">
+            <ul>
+              <li>Home</li>
+              <li>Duration</li>
+              <li>Details</li>
+              <li>Contact</li>
+            </ul>
+          </div>
         </div>
-        <div class="links">
-          <ul>
-            <li><a href="" class="activelink"> Home </a></li>
-            <li><a href="">News</a></li>
-            <li><a href="">Live Cameras</a></li>
-            <li><a href="">Photos</a></li>
-            <li><a href="">Contacts</a></li>
-          </ul>
+        <div class="icon m-4 d-flex justify-content-between">
+          <i class="fa-solid fa-bars pe-2"></i>
+          <h4 class="status">Open</h4>
         </div>
       </div>
-    </header>
+    </div>
+    <!-- ~===================>>>>>>>>>>End Main============================== -->
+    <!-- *==========================>>>Singers=================================== -->
 
-    <div class="main">
+    <div class="singers m-auto mt-5">
       <div class="container">
-        <form action="" class="">
-          <div class="searchform d-flex justify-content-end">
-            <input
-              type="text"
-              name="saerch"
-              id="saerch"
-              class="form-control"
-              placeholder="Find Your Location"
-            />
-            <input type="button"  value="Search" id="btnfind" />
-          </div>
-        </form>
-        <!-- ?=====CurrentWeather====== -->
-        <div class="weather d-flex">
-          <div class="card mt-5">
-            <div
-              class="cardBody shadow-lg d-flex justify-content-center align-items-center"
-            >
-              <div class="today shadow-lg">
-                <div class="dateTime d-flex justify-content-between">
-                  <span id="day"></span>
-                </div>
-                <div class="details">
-                  <div class="city" id="city"></div>
-                </div>
-                <div class="tempDetails d-flex justify-content-between">
-                  <div class="temp" id="temp"></div>
-                  <div class="icon">
-                    <img
-                      id="icon"
-                      src=""
-                      alt=""
-                      width="90"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="footerdetails">
-              <span>
-                <i class="fa-solid fa-umbrella"></i>
-                20%</span
-              >
-              <span>
-                <i class="fa-solid fa-wind"></i>
-                18km/h</span
-              >
-              <span>
-                <i class="fa-regular fa-compass"></i>
-                East</span
-              >
-            </div>
-          </div>
-          <!-- ~=============nextdays========= -->
+        <div class="singerTitle" onclick="toggleSingerBody(this)">
+          Singer One
+        </div>
+        <div class="singerBody">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum."
+        </div>
+        <div class="singerTitle" onclick="toggleSingerBody(this)">
+          Singer Two
+        </div>
+        <div class="singerBody">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum."
+        </div>
+        <div class="singerTitle" onclick="toggleSingerBody(this)">
+          Singer Three
+        </div>
+        <div class="singerBody">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum."
+        </div>
+        <div class="singerTitle" onclick="toggleSingerBody(this)">
+          Singer Four
+        </div>
+        <div class="singerBody">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum."
+        </div>
+      </div>
+    </div>
 
-          <div
-            class="nextforecast mt-5 m-2 d-flex justify-content-between"
-            id="nextforecast"
-          ></div>
+    <!-- *======================================================================= -->
+    <!-- ?========================>>>>Timer====================================== -->
+    <div class="timer">
+      <div class="overlay d-flex align-items-center">
+        <div class="container d-flex justify-content-lg-between">
+          <span id="daySpan"></span>
+          <span id="hoursSpan"></span>
+          <span id="minSpan"></span>
+          <span id="secSpan"></span>
         </div>
       </div>
     </div>
-    <div class="footer m-5">
-      <div class="container d-flex">
-        <div class="social">
-          <form action="" class="d-flex justify-content-end">
-            <input
-              id="txtsubscribe"
-              type="text"
-              placeholder="Enter your email to subscribe..."
-              class="form-control"
-            />
-            <input
-              type="submit"
-              id="btnsubscribe"
-              class="btn btn-light"
-              value="Subscribe"
-            />
-          </form>
+    <!-- ?========================>>>>End Timer================================== -->
+
+    <!-- ^===========================>>>>>>ContactInfo============================= -->
+    <div class="contactInfo mb-5">
+      <div class="container">
+        <div class="contactHeader text-center">
+          <h2>Join Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+          </p>
         </div>
-        <div class="social-links">
-          <a href="#"><i class="fa fa-facebook"></i></a>
-          <a href="#"><i class="fa fa-twitter"></i></a>
-          <a href="#"><i class="fa fa-google-plus"></i></a>
-          <a href="#"><i class="fa fa-pinterest"></i></a>
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Contact Info</h3>
+            <p class="text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+              sit ducimus explicabo fugiat aperiam, error perferendis sed
+              eligendi quaerat omnis incidunt officia quia placeat magnam
+              reprehenderit? Sequi cupiditate cum ea.
+            </p>
+            <div class="contactDetails d-flex flex-column">
+              <span
+                ><i class="fa fa-map-marker"></i> New Street 22545, Nexa Road,
+                New York City, USA</span
+              >
+              <span><i class="fa fa-envelope"></i> hello@uigrid.com </span>
+              <span><i class="fa fa-phone"></i> 001-000-000-000</span>
+            </div>
+            <div class="social mt-3">
+              <i class="fab fa-twitter fa-fw"></i>
+              <i class="fab fa-instagram fa-fw"></i>
+              <i class="fab fa-dribbble fa-fw"></i>
+              <i class="fab fa-pinterest fa-fw"></i>
+              <i class="fab fa-facebook-f fa-fw"></i>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="container">
+              <input
+                type="text"
+                class="form-control mb-3"
+                placeholder="Enter Name"
+              />
+              <input
+                type="text"
+                class="form-control mb-3"
+                placeholder="Enter Email"
+              />
+              <textarea
+                class="form-control"
+                id="txtMessage"
+                cols="30"
+                rows="8"
+                placeholder="Enter Message"
+              ></textarea>
+              <p>
+                <span id="remain" class="text-danger">100</span> Characyer
+                Reamining
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    <!-- ^===========================>>>>>>End ContactInfo========================= -->
+
     <!-- ?=======Script(js)================== -->
     <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/jquery-3.7.1.min.js"></script>
     <script src="JS/site.js" type="text/javascript" defer></script>
     <!--? ===================================== -->
   </body>

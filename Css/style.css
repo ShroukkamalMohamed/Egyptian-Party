@@ -1,35 +1,22 @@
 *{margin:0;padding:0;box-sizing:border-box}
 :root{--cardwidth:1000px}
-body{font-family:"EB Garamond",serif;overflow:hidden;background-color:rgba(252,252,252,.9)}
-a{text-decoration:none;color:#fff}
-header{background-color:rgba(13,145,198,.5);padding-block:10px;color:#fff}
-header .logo{display:flex;gap:10px}
-header .logo img{height:40px}
-header .links ul{list-style:none}
-header .links li{display:inline-block;padding-right:20px;font-size:17px;font-weight:400}
-.activelink{color:#08a7da;border:2px solid #08a7da;border-radius:30px;padding:10px}
-.main{background-image:url(../images/draw1.webp);background-size:cover;background-position:center;height:500px}
-.main #saerch{position:relative;background-color:#fff;line-height:40px;border:none;border-radius:30px;color:#084e65;margin-top:20px}
-#btnfind{position:absolute;margin-top:20px;line-height:50px;border-radius:20px;border-color:rgba(13,145,198,.5);background-color:rgba(13,145,198,.5);color:#fff;width:100px}
-.card{width:33.3333%;border:none;background-color:transparent}
-.card .cardheader{color:#fff;border-bottom:1px solid #313334;background-color:#313334;padding:10px;border-radius:10px 10px 0 0}
-.card{width:33.3333%;background-color:rgba(59,152,189,.5);height:250px;border-radius:30px}
-.cardbody{color:#fff;background-color:#393a3b;border-radius:0 0 10px 10px;padding:20px;font-size:30px}
-.cardbody .temp{font-size:70px}
-.nextcard{width:200px;margin-left:20px;color:#fff;font-size:20px}
-.nextcard span{margin-bottom:10px}
-.nextcard #minitemp{font-size:15px}
-.nextcard #status{color:#084e65}
-.nextcard .header{height:20%;background-color:#fff;border-radius:10px 10px 0 0;color:#08a7da}
-.today{padding:20px;position:absolute;width:100%;background-color:#fff;height:70%;top:0;border-radius:30px 30px 0 0;color:#08a7da;font-size:20px}
-.temp{font-size:70px}
-.footerdetails{position:absolute;bottom:0;padding:20px;font-size:20px}
-.footerdetails span{margin-left:25px;color:#fff}
-.footerdetails i{color:#084e65;font-size:25px}
-.footer #txtsubscribe{position:relative;background-color:rgba(13,145,198,.5);line-height:40px;border:none;border-radius:30px;color:#fff;width:700px}
-.footer #txtsubscribe::placeholder{color:#fff}
-.social-links{margin-left:40px}
-.social-links i{color:#fff;font-size:30px}
-.social-links a{display:inline-block;background-color:rgba(13,145,198,.5);width:50px;height:50px;border-radius:50%;text-align:center;padding:10px}
-.footer #btnsubscribe{position:absolute;line-height:40px;border-radius:30px;border-color:rgba(13,145,198,.5);color:#0d5572}
-.footer #btnsubscribe:hover{background-color:rgba(13,145,198,.5);color:#fff}
+h2,h3{color:#000}
+.main{background-image:url(../images/events-heavenly-header.jpg);background-size:cover;min-height:100vh}
+.sideMenu{position:relative;color:#fff}
+.main .sideMenu i{color:#fff;font-size:45px;cursor:pointer}
+.main .menu{background-color:#000;height:100vh;width:300px}
+.closeIcon{position:relative}
+.closeIcon i{font-size:35px!important;right:20px;padding-top:20px;position:absolute}
+.closeIcon i:hover{color:#ff4500}
+.links ul{list-style-type:none}
+.links ul li{display:block;color:#fff;padding:20px;cursor:pointer}
+.links ul li:hover{color:#ff4500}
+.links{margin-top:50px;font-size:25px}
+.timer{margin:100px 0;background-image:url(../images/invitation-2508607__340.jpg);height:300px;width:100%;background-size:cover;background-position:center;position:relative}
+.overlay{background-color:rgba(214,46,51 ,.5);position:absolute;width:100%;height:100%}
+.timer span{font-size:30px;color:#fff;border:1px solid #fff;padding:30px 90px}
+.contactInfo{color:#777}
+.contactInfo .social i{margin-right:10px;border:1px solid #777;width:40px;height:40px;line-height:42px;text-align:center}
+.singers{width:700px;color:#fff;text-align:center}
+.singers .singerTitle{background-color:#ff7158;font-size:30px;cursor:pointer;border:1px solid}
+.singers .singerBody{background-color:#8b8888;transition:all 1s;max-height:0;overflow:hidden;transition:max-height 1s ease}
